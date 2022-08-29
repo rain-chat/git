@@ -58,3 +58,42 @@ git checkout branchName
 ```
 git pull --rebase name master
 ```
+
+
+## 5. 其他指令
+##### 常用指令
+用于git add后查看暂存区状态。
+```
+git status
+```
+
+
+1. 当前本地分支，-v可选，-v为详细内容
+```
+git branch -v
+```
+2. 远程分支,-v可选，-v为详细内容
+```
+git remote -v
+```
+3. 显示提交日志信息
+```
+git log
+```
+4. 查看git配置信息
+```
+git config --list
+```
+例如以下信息：
+```
+user.name=NAME
+user.email=QQ@qq.com
+```
+5.查看远程分支信息
+```
+ git remote show remoteBranchName
+```
+6. 克隆项目
+```
+git clone remoteBranchSSH                         # 例如git clone https://github.com/regsi/rainchat.git
+```
