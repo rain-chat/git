@@ -89,7 +89,7 @@ git config --list
 user.name=NAME
 user.email=QQ@qq.com
 ```
-5.查看远程分支信息
+5. 查看远程分支信息
 ```
  git remote show remoteBranchName
 ```
