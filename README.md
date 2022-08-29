@@ -9,11 +9,11 @@ git init
 ![image](https://user-images.githubusercontent.com/75610421/187200121-fc02b3ec-a12e-4256-b48a-bc9b3f21c61c.png)
 
 ## 2. 添加文件 
-#### 添加所有文件,文件与.git目录同级
+#### 1. 添加所有文件,文件与.git目录同级
 ```
 git add .
 ```
-#### 添加指定文件
+#### 2. 添加指定文件
 ```
 git add fileName
 ```
